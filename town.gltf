@@ -1,0 +1,679 @@
+{
+  "accessors": {
+    "accessor_index_0": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 282,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        2709
+      ]
+    },
+    "accessor_index_1": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 564,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 1176,
+      "type": "SCALAR",
+      "min": [
+        23
+      ],
+      "max": [
+        5012
+      ]
+    },
+    "accessor_index_2": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 2916,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 936,
+      "type": "SCALAR",
+      "min": [
+        27
+      ],
+      "max": [
+        5060
+      ]
+    },
+    "accessor_index_3": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 4788,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 672,
+      "type": "SCALAR",
+      "min": [
+        51
+      ],
+      "max": [
+        4381
+      ]
+    },
+    "accessor_index_4": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 6132,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 10398,
+      "type": "SCALAR",
+      "min": [
+        170
+      ],
+      "max": [
+        2931
+      ]
+    },
+    "accessor_index_5": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 26928,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 114,
+      "type": "SCALAR",
+      "min": [
+        2615
+      ],
+      "max": [
+        5000
+      ]
+    },
+    "accessor_index_6": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 27156,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 5958,
+      "type": "SCALAR",
+      "min": [
+        2956
+      ],
+      "max": [
+        4970
+      ]
+    },
+    "accessor_position": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 4003,
+      "min": [
+        -150.1867218017578,
+        -97.62682342529297,
+        -150
+      ],
+      "max": [
+        150,
+        89.21691131591797,
+        150.00003051757812
+      ],
+      "type": "VEC3"
+    },
+    "accessor_normal": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 48036,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 4003,
+      "type": "VEC3",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "accessor_uv": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 96072,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 4003,
+      "type": "VEC2",
+      "min": [
+        -30.34375,
+        -36.5
+      ],
+      "max": [
+        37.5,
+        36.03125
+      ]
+    }
+  },
+  "asset": {
+    "generator": "OBJ2GLTF",
+    "premultipliedAlpha": true,
+    "profile": {
+      "api": "WebGL",
+      "version": "1.0"
+    },
+    "version": "1.0"
+  },
+  "buffers": {
+    "buffer_0": {
+      "type": "arraybuffer",
+      "byteLength": 167168,
+      "uri": "buffer_0.bin"
+    }
+  },
+  "bufferViews": {
+    "bufferView_0": {
+      "buffer": "buffer_0",
+      "byteLength": 128096,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    "bufferView_1": {
+      "buffer": "buffer_0",
+      "byteLength": 39072,
+      "byteOffset": 128096,
+      "target": 34963
+    }
+  },
+  "images": {
+    "Grass_Dark_Green.512x512": {
+      "uri": "Grass_Dark_Green.512x512.jpeg"
+    },
+    "Shade_Grass_Dark_Green.512x512": {
+      "uri": "Shade_Grass_Dark_Green.512x512.jpeg"
+    },
+    "Snow": {
+      "uri": "Snow.jpeg"
+    },
+    "bark": {
+      "uri": "bark.jpeg"
+    },
+    "rock.512x512": {
+      "uri": "rock.512x512.jpeg"
+    },
+    "stone.512x512": {
+      "uri": "stone.512x512.jpeg"
+    },
+    "usd": {
+      "uri": "usd.jpeg"
+    }
+  },
+  "materials": {
+    "material_Grass_Dark_Green_512x512_jpegMaterial": {
+      "name": "Grass_Dark_Green_512x512_jpegMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Grass_Dark_Green.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Shade_Grass_Dark_Green_512x512_jpegMaterial": {
+      "name": "Shade_Grass_Dark_Green_512x512_jpegMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Shade_Grass_Dark_Green.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_SnowMaterial": {
+      "name": "SnowMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Snow",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_barkMaterial": {
+      "name": "barkMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_bark",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_rock_512x512_jpegMaterial": {
+      "name": "rock_512x512_jpegMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_rock.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_stone_512x512_jpegMaterial": {
+      "name": "stone_512x512_jpegMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_stone.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_usdMaterial": {
+      "name": "usdMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_usd",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    }
+  },
+  "meshes": {
+    "mesh_town": {
+      "name": "town",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_0",
+          "material": "material_rock_512x512_jpegMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_1",
+          "material": "material_stone_512x512_jpegMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_2",
+          "material": "material_barkMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_3",
+          "material": "material_SnowMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_4",
+          "material": "material_Grass_Dark_Green_512x512_jpegMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_5",
+          "material": "material_Shade_Grass_Dark_Green_512x512_jpegMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_6",
+          "material": "material_usdMaterial",
+          "mode": 4
+        }
+      ]
+    }
+  },
+  "nodes": {
+    "rootNode": {
+      "children": [],
+      "meshes": [
+        "mesh_town"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "samplers": {
+    "sampler_0": {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  },
+  "scene": "scene_town",
+  "scenes": {
+    "scene_town": {
+      "nodes": [
+        "rootNode"
+      ]
+    }
+  },
+  "textures": {
+    "texture_Grass_Dark_Green.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Grass_Dark_Green.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_Shade_Grass_Dark_Green.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Shade_Grass_Dark_Green.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_Snow": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Snow",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_bark": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "bark",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_rock.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "rock.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_stone.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "stone.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_usd": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "usd",
+      "target": 3553,
+      "type": 5121
+    }
+  },
+  "extensionsUsed": [],
+  "animations": {},
+  "cameras": {},
+  "techniques": {
+    "technique0": {
+      "attributes": {
+        "a_position": "position",
+        "a_normal": "normal",
+        "a_texcoord_0": "texcoord_0"
+      },
+      "parameters": {
+        "modelViewMatrix": {
+          "semantic": "MODELVIEW",
+          "type": 35676
+        },
+        "projectionMatrix": {
+          "semantic": "PROJECTION",
+          "type": 35676
+        },
+        "normalMatrix": {
+          "semantic": "MODELVIEWINVERSETRANSPOSE",
+          "type": 35675
+        },
+        "ambient": {
+          "type": 35666
+        },
+        "diffuse": {
+          "type": 35678
+        },
+        "emission": {
+          "type": 35666
+        },
+        "specular": {
+          "type": 35666
+        },
+        "shininess": {
+          "type": 5126
+        },
+        "transparency": {
+          "type": 5126
+        },
+        "position": {
+          "semantic": "POSITION",
+          "type": 35665
+        },
+        "normal": {
+          "semantic": "NORMAL",
+          "type": 35665
+        },
+        "texcoord_0": {
+          "semantic": "TEXCOORD_0",
+          "type": 35664
+        }
+      },
+      "program": "program0",
+      "states": {
+        "enable": [
+          2884,
+          2929
+        ]
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrix",
+        "u_projectionMatrix": "projectionMatrix",
+        "u_normalMatrix": "normalMatrix",
+        "u_ambient": "ambient",
+        "u_diffuse": "diffuse",
+        "u_emission": "emission",
+        "u_specular": "specular",
+        "u_shininess": "shininess",
+        "u_transparency": "transparency"
+      }
+    }
+  },
+  "programs": {
+    "program0": {
+      "attributes": [
+        "a_position",
+        "a_normal",
+        "a_texcoord_0"
+      ],
+      "fragmentShader": "fragmentShader0",
+      "vertexShader": "vertexShader0"
+    }
+  },
+  "shaders": {
+    "vertexShader0": {
+      "type": 35633,
+      "uri": "vertexShader0.glsl"
+    },
+    "fragmentShader0": {
+      "type": 35632,
+      "uri": "fragmentShader0.glsl"
+    }
+  },
+  "skins": {},
+  "extensions": {}
+}
