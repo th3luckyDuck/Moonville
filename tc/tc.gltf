@@ -145,8 +145,7 @@
         ],
         "shininess": 96.078431,
         "transparency": 1
-      },
-      "technique": "technique0"
+      }
     },
     "material_forest_512x512_jpgMaterial": {
       "name": "forest_512x512_jpgMaterial",
@@ -173,8 +172,7 @@
         ],
         "shininess": 96.078431,
         "transparency": 1
-      },
-      "technique": "technique0"
+      }
     }
   },
   "meshes": {
@@ -268,96 +266,10 @@
   "animations": {},
   "cameras": {},
   "techniques": {
-    "technique0": {
-      "attributes": {
-        "a_position": "position",
-        "a_normal": "normal",
-        "a_texcoord_0": "texcoord_0"
-      },
-      "parameters": {
-        "modelViewMatrix": {
-          "semantic": "MODELVIEW",
-          "type": 35676
-        },
-        "projectionMatrix": {
-          "semantic": "PROJECTION",
-          "type": 35676
-        },
-        "normalMatrix": {
-          "semantic": "MODELVIEWINVERSETRANSPOSE",
-          "type": 35675
-        },
-        "ambient": {
-          "type": 35666
-        },
-        "diffuse": {
-          "type": 35678
-        },
-        "emission": {
-          "type": 35666
-        },
-        "specular": {
-          "type": 35666
-        },
-        "shininess": {
-          "type": 5126
-        },
-        "transparency": {
-          "type": 5126
-        },
-        "position": {
-          "semantic": "POSITION",
-          "type": 35665
-        },
-        "normal": {
-          "semantic": "NORMAL",
-          "type": 35665
-        },
-        "texcoord_0": {
-          "semantic": "TEXCOORD_0",
-          "type": 35664
-        }
-      },
-      "program": "program0",
-      "states": {
-        "enable": [
-          2884,
-          2929
-        ]
-      },
-      "uniforms": {
-        "u_modelViewMatrix": "modelViewMatrix",
-        "u_projectionMatrix": "projectionMatrix",
-        "u_normalMatrix": "normalMatrix",
-        "u_ambient": "ambient",
-        "u_diffuse": "diffuse",
-        "u_emission": "emission",
-        "u_specular": "specular",
-        "u_shininess": "shininess",
-        "u_transparency": "transparency"
-      }
-    }
   },
   "programs": {
-    "program0": {
-      "attributes": [
-        "a_position",
-        "a_normal",
-        "a_texcoord_0"
-      ],
-      "fragmentShader": "fragmentShader0",
-      "vertexShader": "vertexShader0"
-    }
   },
   "shaders": {
-    "vertexShader0": {
-      "type": 35633,
-      "uri": "vertexShader0.glsl"
-    },
-    "fragmentShader0": {
-      "type": 35632,
-      "uri": "fragmentShader0.glsl"
-    }
   },
   "skins": {},
   "extensions": {}
